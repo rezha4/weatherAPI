@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Pacifico&display=swap');
+
 * {
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    background-color: #D9D9D9;
+    padding: 1rem 0;
+}
+
+nav {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    text-align: center;
+    line-height: 3rem;
+    height: 60vh;
+}
+
+footer {
+    text-align: center;
 }
